@@ -158,8 +158,8 @@ keymap :O OPTIONS
 keymap :d DOWNLOAD_LIST
 
 ########## history navigation ##########
-keymap L NEXT
-keymap H PREV
+keymap J NEXT
+keymap K PREV
 keymap :p SELECT_MENU
 keymap :h HISTORY
 
@@ -174,10 +174,12 @@ keymap C-u PREV_PAGE
 keymap u PREV_PAGE
 keymap zz CENTER_V
 ########## cursor ##########
-#keymap l MOVE_RIGHT
-keymap l NEXT_TAB
-#keymap h MOVE_LEFT
-keymap h PREV_TAB
+keymap l MOVE_RIGHT
+keymap h MOVE_LEFT
+
+keymap J PREV_TAB
+keymap K NEXT_TAB
+
 #keymap j MOVE_DOWN1
 keymap j UP
 #keymap k MOVE_UP1
