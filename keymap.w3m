@@ -181,9 +181,10 @@ keymap J PREV_TAB
 keymap K NEXT_TAB
 
 #keymap j MOVE_DOWN1
-keymap j UP
+keymap j MOVE_DOWN
 #keymap k MOVE_UP1
-keymap k DOWN
+keymap k MOVE_UP
+
 keymap RIGHT MOVE_RIGHT
 keymap LEFT MOVE_LEFT
 keymap DOWN MOVE_DOWN1
